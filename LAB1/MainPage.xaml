@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="LAB1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LAB1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="ClickMeButton" Content="Click Me" Margin="357,177,0,0"  VerticalAlignment="Top" Click="ClickMeButton_Click_1"/>
+        <TextBlock x:Name="ResultTextBlock" HorizontalAlignment="Left" Margin="295,243,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48"/>
+
+    </Grid>
+</Page>
