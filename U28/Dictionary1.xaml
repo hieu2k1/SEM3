@@ -1,0 +1,7 @@
+﻿<ResourceDictionary
+    x:Class="U28.Dictionary1"
+     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:U28">
+    <SolidColorBrush x:Key="brush" Color="Red"/>
+</ResourceDictionary>
