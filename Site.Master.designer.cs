@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WingtipToys0
+namespace Shopping_Cart
 {
 
 
@@ -15,22 +15,13 @@ namespace WingtipToys0
     {
 
         /// <summary>
-        /// Imagel control.
+        /// cartCount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Imagel;
-
-        /// <summary>
-        /// categoryList control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView categoryList;
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor cartCount;
 
         /// <summary>
         /// MainContent control.

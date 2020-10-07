@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WingtipToys0
+namespace Shopping_Cart
 {
     public partial class Contact : Page
     {

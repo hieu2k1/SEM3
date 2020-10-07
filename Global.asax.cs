@@ -6,10 +6,8 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
-using System.Data.Entity;
-using WingtipToys0.Models;
 
-namespace WingtipToys0
+namespace Shopping_Cart
 {
     public class Global : HttpApplication
     {
@@ -18,8 +16,6 @@ namespace WingtipToys0
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-
-            Database.SetInitializer(new ProductDatabaseInitializer());
         }
     }
 }

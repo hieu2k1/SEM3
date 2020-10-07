@@ -7,7 +7,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Microsoft.AspNet.FriendlyUrls.Resolvers;
 
-namespace WingtipToys0
+namespace Shopping_Cart
 {
     public partial class ViewSwitcher : System.Web.UI.UserControl
     {

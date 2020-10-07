@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 
-namespace WingtipToys0.Account
+namespace Shopping_Cart.Account
 {
     public partial class ManagePassword : System.Web.UI.Page
     {

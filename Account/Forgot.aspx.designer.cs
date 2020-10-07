@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WingtipToys0.Account {
+namespace Shopping_Cart.Account {
     
     
     public partial class ForgotPassword {

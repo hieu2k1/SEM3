@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="OpenAuthProviders.ascx.cs" Inherits="WingtipToys0.Account.OpenAuthProviders" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="OpenAuthProviders.ascx.cs" Inherits="Shopping_Cart.Account.OpenAuthProviders" %>
 
 <div id="socialLoginList">
     <h4>Use another service to log in.</h4>

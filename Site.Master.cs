@@ -7,10 +7,11 @@ using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
+using Shopping_Cart.Models;
+using Shopping_Cart.Logic;
 using System.Linq;
-using WingtipToys0.Models;
 
-namespace WingtipToys0
+namespace Shopping_Cart
 {
     public partial class SiteMaster : MasterPage
     {
@@ -49,12 +50,6 @@ namespace WingtipToys0
 
             Page.PreLoad += master_Page_PreLoad;
         }
-        public IQueryable<Category> GetCategories()
-        {
-            var _db = new WingtipToys0.Models.ProductContext();
-            IQueryable<Category> query = _db.Categories;
-            return query;
-        }
 
         protected void master_Page_PreLoad(object sender, EventArgs e)
         {
@@ -80,6 +75,21 @@ namespace WingtipToys0
 
         }
 
+        protected void Page_PreRender(object sender,EventArgs e)
+        {
+            using (ShoppingCartActions usersShoppingCart = new ShoppingCartActions())
+            {
+                string cartStr = string.Format("Cart ({0})",
+                    usersShoppingCart.GetCount());
+                cartCount.InnerText = cartStr;
+            }
+        }
+        public IQueryable<Category> GetCategories()
+        {
+            var _db = new Shopping_Cart.Models.ProductContext();
+            IQueryable<Category> query = _db.Categories;
+            return query;
+        }
         protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)
         {
             Context.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);

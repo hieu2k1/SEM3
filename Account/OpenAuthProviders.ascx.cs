@@ -6,7 +6,7 @@ using System.Web;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 
-namespace WingtipToys0.Account
+namespace Shopping_Cart.Account
 {
     public partial class OpenAuthProviders : System.Web.UI.UserControl
     {

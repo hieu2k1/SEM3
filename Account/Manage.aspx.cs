@@ -8,9 +8,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Owin;
-using WingtipToys0.Models;
+using Shopping_Cart.Models;
 
-namespace WingtipToys0.Account
+namespace Shopping_Cart.Account
 {
     public partial class Manage : System.Web.UI.Page
     {

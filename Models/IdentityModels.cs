@@ -6,9 +6,9 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using WingtipToys0.Models;
+using Shopping_Cart.Models;
 
-namespace WingtipToys0.Models
+namespace Shopping_Cart.Models
 {
     // You can add User data for the user by adding more properties to your User class, please visit https://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     public class ApplicationUser : IdentityUser
@@ -42,7 +42,7 @@ namespace WingtipToys0.Models
 }
 
 #region Helpers
-namespace WingtipToys0
+namespace Shopping_Cart
 {
     public static class IdentityHelper
     {

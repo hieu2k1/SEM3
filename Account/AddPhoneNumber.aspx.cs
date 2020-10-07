@@ -7,9 +7,9 @@ using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using System.Threading.Tasks;
-using WingtipToys0.Models;
+using Shopping_Cart.Models;
 
-namespace WingtipToys0.Account
+namespace Shopping_Cart.Account
 {
     public partial class AddPhoneNumber : System.Web.UI.Page
     {
