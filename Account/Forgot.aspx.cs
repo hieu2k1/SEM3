@@ -4,9 +4,9 @@ using System.Web.UI;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Owin;
-using Shopping_Cart.Models;
+using ShoppingMall.Models;
 
-namespace Shopping_Cart.Account
+namespace ShoppingMall.Account
 {
     public partial class ForgotPassword : Page
     {

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Shopping_Cart {
+namespace ShoppingMall {
     
     
     public partial class Site_Mobile {

@@ -7,9 +7,9 @@ using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using System.Threading.Tasks;
-using Shopping_Cart.Models;
+using ShoppingMall.Models;
 
-namespace Shopping_Cart.Account
+namespace ShoppingMall.Account
 {
     public partial class AddPhoneNumber : System.Web.UI.Page
     {

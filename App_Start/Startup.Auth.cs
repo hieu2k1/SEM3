@@ -7,9 +7,9 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.DataProtection;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using Shopping_Cart.Models;
+using ShoppingMall.Models;
 
-namespace Shopping_Cart
+namespace ShoppingMall
 {
     public partial class Startup {
 

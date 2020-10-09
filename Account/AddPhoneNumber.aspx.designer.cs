@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Shopping_Cart.Account {
+namespace ShoppingMall.Account {
     
     
     public partial class AddPhoneNumber {

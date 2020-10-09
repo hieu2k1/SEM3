@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Shopping_Cart
+namespace ShoppingMall
 {
 
 

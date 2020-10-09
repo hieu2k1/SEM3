@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Shopping_Cart.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ShoppingMall.SiteMaster" %>
 
 <!DOCTYPE html>
 
@@ -52,9 +52,6 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
-                        <li><a" runat="server" href="~/ProductList">Products</a></li>
-                        <li><a runat="server" href="~/ShoppingCart"
-                            ID="cartCount">&nbsp;</a></li>
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>

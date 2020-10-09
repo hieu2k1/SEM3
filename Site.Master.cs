@@ -7,11 +7,8 @@ using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
-using Shopping_Cart.Models;
-using Shopping_Cart.Logic;
-using System.Linq;
 
-namespace Shopping_Cart
+namespace ShoppingMall
 {
     public partial class SiteMaster : MasterPage
     {
@@ -75,21 +72,6 @@ namespace Shopping_Cart
 
         }
 
-        protected void Page_PreRender(object sender,EventArgs e)
-        {
-            using (ShoppingCartActions usersShoppingCart = new ShoppingCartActions())
-            {
-                string cartStr = string.Format("Cart ({0})",
-                    usersShoppingCart.GetCount());
-                cartCount.InnerText = cartStr;
-            }
-        }
-        public IQueryable<Category> GetCategories()
-        {
-            var _db = new Shopping_Cart.Models.ProductContext();
-            IQueryable<Category> query = _db.Categories;
-            return query;
-        }
         protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)
         {
             Context.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);

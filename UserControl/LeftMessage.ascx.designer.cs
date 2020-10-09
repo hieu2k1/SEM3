@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ShoppingMall
+namespace ShoppingMall.UserControl
 {
 
 
-    public partial class Contact
+    public partial class LeftMessage
     {
     }
 }

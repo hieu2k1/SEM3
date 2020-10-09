@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Optimization;
 using System.Web.UI;
 
-namespace Shopping_Cart
+namespace ShoppingMall
 {
     public class BundleConfig
     {
