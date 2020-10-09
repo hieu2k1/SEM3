@@ -2,20 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.Optimization;
+using System.Web.Mvc;
 using System.Web.Routing;
-using System.Web.Security;
-using System.Web.SessionState;
 
-namespace Shopping_Cart
+namespace StudentManagement.Test
 {
-    public class Global : HttpApplication
+    public class MvcApplication : System.Web.HttpApplication
     {
-        void Application_Start(object sender, EventArgs e)
+        protected void Application_Start()
         {
-            // Code that runs on application startup
+            AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
 }
