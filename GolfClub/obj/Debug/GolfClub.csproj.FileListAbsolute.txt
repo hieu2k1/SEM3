@@ -1,0 +1,2 @@
+C:\Users\Administrator\source\repos\ShoppingMall\GolfClub\obj\Debug\GolfClub.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\ShoppingMall\GolfClub\obj\Debug\GolfClub.csproj.CoreCompileInputs.cache
