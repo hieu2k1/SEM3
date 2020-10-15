@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="ShoppingMall.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="ContosoUniversity.MvcApplication" Language="C#" %>
